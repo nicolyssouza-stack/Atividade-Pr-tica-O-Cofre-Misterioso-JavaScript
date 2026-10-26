@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jogo de cofres</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
+</head>
+<body>
+
+    <h1>O cofre misterioso</h1>
+    <h3>Como funciona o jogo❔: </h3>
+    <h3>1-escolha um dos tres cofres disponiveis.</h3>
+    <h3>2-apenas um deles guarda o grande premio.</h3>
+    <h3>3-veja se voce acertou e tente a sorte quantas vezes quiser.</h3>
+
+    <div class="arena" id="arena">
+        <button id="cofre1">Cofre1️⃣</button>
+        <button id="cofre2">Cofre2️⃣</button>
+        <button id="cofre3">Cofre3️⃣</button>
+    </div>
+
+    <h2 id="mensagem"></h2>
+
+    <div class="placar">
+        <p>Tentativas ate agora- <span id="tentativas">0</span></p>
+        <p>Vitorias enquanto isso- <span id="vitorias">0</span></p>
+    </div>
+
+    <div class="controles">
+        <button id="btnReiniciar">Jogar denovo 🔄️</button>
+        <button id="btnZerar" class="btn-zerar">Zerar tudo</button>
+    </div>
+
+    <script src='./js/index.js'></script>
+
+</body>
+</html>
